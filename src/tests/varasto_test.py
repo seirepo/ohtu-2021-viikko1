@@ -71,4 +71,4 @@ class TestVarasto(unittest.TestCase):
     def test_varaston_tiedot_tulostuu_oikein(self):
         self.varasto = Varasto(10, 6)
 
-        self.assertEqual(str(self.varasto), "saldo = 6, vielä tilaa 4")
+        self.assertEqual(str(self.varasto), "saldo = 6, vielä tilaa 40")
